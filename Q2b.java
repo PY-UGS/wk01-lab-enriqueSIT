@@ -1,10 +1,13 @@
-public class Example3
-{
-    public static void main(String arg[])
-    {
+
+
+
+public class Q2b {
+
+    public static void main(String args[]) {
+        
         String moduleCode = "CSC1009";
-        switch(moduleCode)
-        {
+        
+        switch (moduleCode) {
             case "CSC1006":
                 System.out.println("Mathematics 2");
                 break;
@@ -24,5 +27,7 @@ public class Example3
                 System.out.println("Unknown module code!");
                 break;
         }
+        
     }
 }
+
